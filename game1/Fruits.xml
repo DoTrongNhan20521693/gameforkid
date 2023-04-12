@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<fruits>
+
+	<fruit>
+		<name>apple</name>
+	</fruit>
+	<fruit>
+		<name>banana</name>
+	</fruit>
+	<fruit>
+		<name>cherry</name>
+	</fruit>
+	<fruit>
+		<name>coconut</name>
+	</fruit>
+	<fruit>
+		<name>grape</name>
+	</fruit>
+	<fruit>
+		<name>kiwi</name>
+	</fruit>
+	<fruit>
+		<name>lemon</name>
+	</fruit>
+	<fruit>
+		<name>orange</name>
+	</fruit>
+	<fruit>
+		<name>peach</name>
+	</fruit>
+	<fruit>
+		<name>pineapple</name>
+	</fruit>
+	<fruit>
+		<name>strawberry</name>
+	</fruit>
+	<fruit>
+		<name>watermelon</name>
+	</fruit>
+
+</fruits>

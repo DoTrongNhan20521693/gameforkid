@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<vehicles>
+	
+	<vehicle>
+		<name>bicycle</name>
+	</vehicle>
+	<vehicle>
+		<name>boat</name>
+	</vehicle>
+	<vehicle>
+		<name>bus</name>
+	</vehicle>
+	
+	<vehicle>
+		<name>helicopter</name>
+	</vehicle>
+	<vehicle>
+		<name>motorbike</name>
+	</vehicle>
+	<vehicle>
+		<name>plane</name>
+	</vehicle>
+	<vehicle>
+		<name>skateboard</name>
+	</vehicle>
+	<vehicle>
+		<name>taxi</name>
+	</vehicle>
+	<vehicle>
+		<name>train</name>
+	</vehicle>
+	<vehicle>
+		<name>truck</name>
+	</vehicle>
+
+</vehicles>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{782428F7-D79B-496B-8ACF-D8912070B140}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>game1</RootNamespace>
+    <AssemblyName>game1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animal.Designer.cs">
+      <DependentUpon>Animal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Button_WOC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Occupation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Occupation.Designer.cs">
+      <DependentUpon>Occupation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicle.Designer.cs">
+      <DependentUpon>Vehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wordbank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wordbank.Designer.cs">
+      <DependentUpon>Wordbank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruit.Designer.cs">
+      <DependentUpon>Fruit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customized button\RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Animal.resx">
+      <DependentUpon>Animal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Occupation.resx">
+      <DependentUpon>Occupation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicle.resx">
+      <DependentUpon>Vehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wordbank.resx">
+      <DependentUpon>Wordbank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruit.resx">
+      <DependentUpon>Fruit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Animals.xml" />
+    <Content Include="Fruits.xml" />
+    <Content Include="Occupations.xml" />
+    <Content Include="pictures in use\Animals\alligator.jpg" />
+    <Content Include="pictures in use\Animals\beaver.jpg" />
+    <Content Include="pictures in use\Animals\cat.jpg" />
+    <Content Include="pictures in use\Animals\dog.jpg" />
+    <Content Include="pictures in use\Animals\elephant.jpg" />
+    <Content Include="pictures in use\Animals\fish.jpg" />
+    <Content Include="pictures in use\Animals\frog.jpg" />
+    <Content Include="pictures in use\Animals\horse.jpg" />
+    <Content Include="pictures in use\Animals\jellyfish.jpg" />
+    <Content Include="pictures in use\Animals\lion.jpg" />
+    <Content Include="pictures in use\Animals\sheep.jpg" />
+    <Content Include="pictures in use\Animals\turtle.jpg" />
+    <Content Include="pictures in use\Fruits\apple.jpg" />
+    <Content Include="pictures in use\Fruits\banana.jpg" />
+    <Content Include="pictures in use\Fruits\cherry.jpg" />
+    <Content Include="pictures in use\Fruits\coconut.jpg" />
+    <Content Include="pictures in use\Fruits\grape.jpg" />
+    <Content Include="pictures in use\Fruits\kiwi.jpg" />
+    <Content Include="pictures in use\Fruits\lemon.jpg" />
+    <Content Include="pictures in use\Fruits\orange.jpg" />
+    <Content Include="pictures in use\Fruits\peach.jpg" />
+    <Content Include="pictures in use\Fruits\pineapple.jpg" />
+    <Content Include="pictures in use\Fruits\strawberry.jpg" />
+    <Content Include="pictures in use\Fruits\watermelon.jpg" />
+    <Content Include="pictures in use\Occupations\chef.jpg" />
+    <Content Include="pictures in use\Occupations\dentist.jpg" />
+    <Content Include="pictures in use\Occupations\doctor.jpg" />
+    <Content Include="pictures in use\Occupations\farmer.jpg" />
+    <Content Include="pictures in use\Occupations\hairdresser.jpg" />
+    <Content Include="pictures in use\Occupations\mechanic.jpg" />
+    <Content Include="pictures in use\Occupations\nurse.jpg" />
+    <Content Include="pictures in use\Occupations\plumber.jpg" />
+    <Content Include="pictures in use\Occupations\police officer.jpg" />
+    <Content Include="pictures in use\Occupations\sailor.jpg" />
+    <Content Include="pictures in use\Occupations\teacher.jpg" />
+    <Content Include="pictures in use\Occupations\waiter.jpg" />
+    <Content Include="pictures in use\Vehicles\bicycle.jpg" />
+    <Content Include="pictures in use\Vehicles\boat.jpg" />
+    <Content Include="pictures in use\Vehicles\bus.jpg" />
+    <Content Include="pictures in use\Vehicles\helicopter.jpg" />
+    <Content Include="pictures in use\Vehicles\motorbike.jpg" />
+    <Content Include="pictures in use\Vehicles\plane.jpg" />
+    <Content Include="pictures in use\Vehicles\skateboard.jpg" />
+    <Content Include="pictures in use\Vehicles\taxi.jpg" />
+    <Content Include="pictures in use\Vehicles\train.jpg" />
+    <Content Include="pictures in use\Vehicles\truck.jpg" />
+    <Content Include="Vehicles.xml" />
+    <Content Include="y2mate.com - Kids Game  Childrens Music Instrumental Music For Kids.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

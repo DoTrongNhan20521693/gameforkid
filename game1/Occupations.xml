@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<occupations>
+
+	<occupation>
+		<name>chef</name>
+	</occupation>
+	<occupation>
+		<name>dentist</name>
+	</occupation>
+	<occupation>
+		<name>doctor</name>
+	</occupation>
+	<occupation>
+		<name>farmer</name>
+	</occupation>
+	<occupation>
+		<name>hairdesser</name>
+	</occupation>
+	<occupation>
+		<name>mechanic</name>
+	</occupation>
+	<occupation>
+		<name>nurse</name>
+	</occupation>
+	<occupation>
+		<name>plumber</name>
+	</occupation>
+	<occupation>
+		<name>police officer</name>
+	</occupation>
+	<occupation>
+		<name>sailor</name>
+	</occupation>
+	<occupation>
+		<name>teacher</name>
+	</occupation>
+	<occupation>
+		<name>waiter</name>
+	</occupation>
+
+</occupations>

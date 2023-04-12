@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<animals>
+	<animal>
+		<name>alligator</name>
+	</animal>
+
+	<animal>
+		<name>beaver</name>
+	</animal>
+	<animal>
+		<name>cat</name>
+	</animal>
+
+	<animal>
+		<name>dog</name>
+	</animal>
+	<animal>
+		<name>elephant</name>
+	</animal>
+
+	<animal>
+		<name>fish</name>
+	</animal>
+	<animal>
+		<name>frog</name>
+	</animal>
+
+	<animal>
+		<name>horse</name>
+	</animal>
+	<animal>
+		<name>jellyfish</name>
+	</animal>
+
+	<animal>
+		<name>lion</name>
+	</animal>
+	<animal>
+		<name>sheep</name>
+	</animal>
+
+	<animal>
+		<name>turtle</name>
+	</animal>
+</animals>
+
